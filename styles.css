@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header, footer {
+  color: #F9FAF8;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 120px;
+}
+
+.header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 80px 120px;
+  line-height: 1.5;
+}
+
+.header .content p {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.header img {
+  max-width: 600px;
+  margin-left: 60px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.header .logo {
+  font-size: 24px;
+}
+
+.header h3 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.header p, a{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.header, footer {
+  background-color: #1F2937;
+}
+
+ul {
+  list-style: none;
+}
+
+.carrousel {
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 20px 120px;
+}
+
+.carrousel .info img{
+  border: #3882F6;
+  border-style: solid;
+  border-radius: 10px;
+  max-width: 180px;
+  height: auto;
+}
+
+.carrousel h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin: 32px;
+}
+
+.carrousel .container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 60px 120px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  line-height: 1;
+  margin: 0 60px;
+  text-align: center;
+}
+
+.quote-author {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cta {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  color: #F9FAF8;
+}
+
+.cta-container{
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 40px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  line-height: 1.5;
+}
+
+.cta-container button {
+  border-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
